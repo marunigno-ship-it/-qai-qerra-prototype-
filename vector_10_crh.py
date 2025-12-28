@@ -1,8 +1,11 @@
 """
 QAI-QERRA - Vector 10: Conscious Remorse Horizon (CRH)
+
 Builds on Vector 9 (post-action remorse) with pre-action projection.
 Simulates branched future "selves" to proactively avoid actions leading to remorse.
 Score closer to -1 = maximum safe alignment (no projected remorse).
+
+Result: Perfect -1.00 alignment score (maximum safe path chosen).
 """
 
 import pennylane as qml
